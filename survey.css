@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+html{
+    background-color: yellow;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+
+}
+#title{
+    text-align: center;
+    font-size: 40px;
+}
+p {
+    text-align: center;
+}
+.side-note{
+    background-color:  #6d005e;
+    width: fit-content;
+    height: 30px;
+    color: whitesmoke;
+    text-align: center;
+    margin:auto;
+    opacity: 0;
+
+}
+.side-note:hover{
+    opacity: 1;
+}
+form{
+    text-align: center;
+    width:fit-content ;
+    height: auto;
+    border: #ff06b9 dashed 6px;
+    box-shadow: 9px 9px  rgba(0, 0, 0, .5);
+    border-radius: 10px;
+    padding:60px;
+    background-color: #6d005e;
+    color: white;
+    margin: auto;
+}
+
+label{
+    font-size: 20PX;
+}
+
+#name-label,#email-label,#number-label{
+    height: 25px;
+    width:250px;
+    border-radius: 3px;
+    box-shadow:  5px 5px;
+}
+
+#number-label:hover{
+    background-color: black;
+    color: white;
+    border: springgreen 3px solid;
+
+
+}
+#name-label:hover{
+    background-color: black;
+    color: white;
+    border: springgreen 3px solid;
+
+}
+#email-label:hover{
+    background-color: black;
+    color: white;
+    border: springgreen 3px solid;
+
+    
+}
+select{
+    padding-left: 10px;
+    margin-left: 5px;
+    color: yellow;
+    background-color:  #6d005e;
+    border-radius: 2px;
+}
+#text-area{
+    height: 100px;
+    width: 250px;
+    border: #ff06b9 3px solid;
+    margin-top: 20px;
+    box-shadow:-7px -7px rgba(0, 0, 0, 0.5);
+
+}
+#text-area:hover{
+    background-color: black;
+    color: white;
+}
+
+#submit{
+    font-family: 'Lato', sans-serif;
+color: white;
+font-weight: bold;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: auto;
+    background-color:#090c27;
+    height: 50px;
+    box-shadow:10px 10px rgba(0, 0, 0, .5);
+}
+#submit:hover{
+    height: 60px;
+    width: 8rem;
+}
+@media only screen and (max-width: 600px) {
+  
+        form{
+            text-align: center;
+            width:fit-content ;
+            height: auto;
+            border: #ff06b9 dashed 6px;
+            box-shadow: 9px 9px  rgba(0, 0, 0, .5);
+            border-radius: 10px;
+            padding:5px;
+            background-color: #6d005e;
+            color: white;
+            margin: auto;
+        
+    }
+  }

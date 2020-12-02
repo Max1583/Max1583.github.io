@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="survey.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="title">Survey form</title>
+
+</head>
+<body>
+    <h1 id="title">
+        Customer Survey Form
+    </h1>
+    <p id="description">
+        This survey is to help keep up with our customer satisfaction programme.
+    </p>
+    <div class="side-note">
+        <P>
+        Cool Survey Form
+        </P>
+    </div>
+   <div class="form-pad">
+    <form action="" id="survey-form">
+
+        <label for="name"name="cs">
+            Name
+        </label>
+<br>
+<br>
+
+
+        <input type="text" id="name-label" name="cs" placeholder="Enter your name...">
+<br>
+<br>
+
+        
+
+        <label for="E-mail" name="cs">
+            E-mail
+        </label>
+<br>
+<br>
+
+
+        <input type="email" id="email-label" placeholder="Enter your E-mail...">
+<br>
+<br>
+
+        <label for="number" name="cs">
+            Phone Number
+        </label>
+
+<br>
+<br>
+
+        <input type="tel" id="number-label" placeholder="Enter your Phone number..." max="99999999999" min="0000000000" >
+
+        <br>
+        <br>
+        <label for="dropdown">Gender </label>
+        <select name="cs" id="dropdown">
+            <option value="male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Other">Other</option>
+        </select>
+
+        <br>
+        <br>
+        Which of our branches did you patronize?
+        <br>
+        <label for="Nigeria">Nigeria</label>
+        <input type="checkbox" name="branch" value="Nigeria" checked>
+        <label for="united Kingdom">United kingdom</label>
+        <input type="checkbox" name="branch" value="United Kingdom" disabled >
+        <br>
+        <br>
+        How would you rate us?
+        <br>
+        <label for="one-star"> 1&#9734; </label>
+        <input type="radio" name="rating" id="one-star">
+        <label for="two-star"> 2&#9734; </label>
+        <input type="radio" name="rating" id="two-star">
+        <label for="three-star"> 3&#9734; </label>
+        <input type="radio" name="rating" id="three-star">
+        <label for="four-star"> 4&#9734; </label>
+        <input type="radio" name="rating" id="four-star">
+        <label for="five-star"> 5&#9734; </label>
+        <input type="radio" name="rating" id="five-star">
+        <br><br>
+        Any comments or suggestions?
+        <br>
+        <input type="text-area" id="text-area">
+        <br>
+        <hr>
+        <input type="submit" id="submit" value="SUBMIT">
+    </form>
+   </div>
+    <br>
+  
+</body>
+</html>
